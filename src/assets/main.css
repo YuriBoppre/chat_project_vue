@@ -1,0 +1,19 @@
+@import './base.css';
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 400px;
+  max-width: 95%;
+  height: 90%;
+  box-shadow: rgba(99, 99, 99, 0.322) 0px 2px 2px 0px;
+}
